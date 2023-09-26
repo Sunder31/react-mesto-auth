@@ -1,0 +1,19 @@
+.popup__auth-image {
+  margin-top: 40px;
+  color: green;
+  max-width: 120px;
+  max-height: 120px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .popup__auth-image {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__auth-image {
+    margin-top: 30px;
+  }
+}
