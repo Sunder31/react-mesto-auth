@@ -68,24 +68,6 @@ function App() {
         }
     }, [loggedIn])
     
-
-    useEffect(() => {
-        api.getUserInfo().then((data) => {
-            setCurrentUser(data);
-        }).catch((err) => {
-            console.error(`${err} ${err.message}`)
-        })
-    }, [])
-
-    
-    useEffect(() => {
-        api.getInitialCards().then((data) => {
-            setCards(data)
-        }).catch((err) => {
-            console.error(`${err} ${err.message}`)
-        })
-    }, [])
-
     const handleLogin = () => {
         setLoggedIn(true)
     }
