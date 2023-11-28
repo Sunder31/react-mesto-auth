@@ -13,7 +13,7 @@ import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
 import ProtectedRoute from './ProtectedRoute';
 import * as auth from '../utils/auth';
 import Login from './Login';
-import InfoTooltip from './InfoToolTip'
+import InfoTooltip from './InfoTooltip'
 import Register from './Register';
 
 function App() {
